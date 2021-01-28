@@ -1,0 +1,24 @@
+{
+  "name": "vue3-components",
+  "version": "1.0.0",
+  "description": "vue3组件开发，个人组件可能会不稳定",
+  "main": "index.js",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kuan1/vue3-components.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kuan1/vue3-components/issues"
+  },
+  "homepage": "https://github.com/kuan1/vue3-components#readme"
+}
