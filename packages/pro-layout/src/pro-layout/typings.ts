@@ -1,10 +1,14 @@
 import { VNodeChild } from 'vue'
 
+export type RenderVNodeType = VNodeChild | Element | JSX.Element
+
 export type MenuMode = 'vertical' | 'vertical-left' | 'vertical-right' | 'horizontal' | 'inline'
 
 export type MenuTheme = 'dark' | 'light'
 
 export type TargetType = '_blank' | '_self' | unknown
+
+export type ContentWidth = 'Fluid' | 'Fixed'
 
 export type WithFalse<T> = T | false
 

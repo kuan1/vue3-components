@@ -1,10 +1,13 @@
 <template>
-  <h2>开发中...</h2>
+  <sider-menu />
 </template>
 
 <script>
-export default {};
-</script>
+import SiderMenu from './pro-layout/sider-menu-dev'
 
-<style>
-</style>
+export default {
+  components: {
+    SiderMenu,
+  },
+}
+</script>
