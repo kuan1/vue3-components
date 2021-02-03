@@ -9,11 +9,23 @@ const testConfig = {
       app: path.resolve(__dirname, 'src/main.ts'),
     },
   },
+  css: {
+    loaderOptions: {
+      less: {
+        javascriptEnabled: true
+      }
+    }
+  }
 }
 
 const libConfig = {
   css: {
     extract: false,
+    loaderOptions: {
+      less: {
+        javascriptEnabled: true
+      }
+    }
   },
   configureWebpack: {
     entry: {

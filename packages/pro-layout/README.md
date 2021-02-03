@@ -1,3 +1,24 @@
-# @luzhongk/pro-layout
+# pro-layout
 
-学习 [vueComponent/pro-layout](https://github.com/vueComponent/pro-layout/tree/next)
+## Project setup
+```
+yarn install
+```
+
+### Compiles and hot-reloads for development
+```
+yarn serve
+```
+
+### Compiles and minifies for production
+```
+yarn build
+```
+
+### Lints and fixes files
+```
+yarn lint
+```
+
+### Customize configuration
+See [Configuration Reference](https://cli.vuejs.org/config/).
